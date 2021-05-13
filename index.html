@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Sistema de Multas</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Sistema de Multas</h1>
+    </div>
+
+    <div class="verificacao">
+        <h3>Qual foi a velocidade avistada: <input type="number" id="velocidade" required> Km/h.</h3>
+        <h4>Lembrando que a velocidade máxima é 80Km/h</h4>
+        <input type="button" value="VERIFICAR" id ="botao" onclick="verificar()">
+        <h2 id="resposta"></h2>
+    </div>
+
+    <script src="JavaScript/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(-45deg, #34e89e, #0f3443);
+    background-size: 100% 700%;
+}
+
+.titulo{
+    height: 12vh;
+    width: 100%;    
+    line-height: 12vh;
+}
+
+.verificacao{
+    height: 9vh;
+    width: 100%;
+}
+
+h4{
+    margin: 10px 0 0 0;
+}
+
+#botao{
+    background-color: rgb(159, 247, 196);
+    color: black;
+    margin: 18px 0 10px 0;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#velocidade{
+    color: black;
+}
